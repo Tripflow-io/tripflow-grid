@@ -1,7 +1,7 @@
 {
-  "name": "tripflow-grid",
-  "version": "1.0.0",
-  "description": "A draggable and resizable grid layout with responsive breakpoints, for React.",
+  "name": "tripflow-react-grid-layout",
+  "version": "1.0.2",
+  "description": "Tripflow fork of react-grid-layout, a draggable and resizable grid layout with responsive breakpoints, for React.",
   "main": "index.js",
   "scripts": {
     "lint": "make lint",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:STRML/react-grid-layout.git"
+    "url": "git@github.com:Tripflow-io/tripflow-grid.git"
   },
   "keywords": [
     "react",
@@ -30,15 +30,15 @@
     "fluid",
     "responsive"
   ],
-  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
+  "author": "Lorenzo Balzani <balzanilo@icloud.com> (https://lorenzobalzani.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/STRML/react-grid-layout/issues"
+    "url": "https://github.com/Tripflow-io/tripflow-grid/issues"
   },
-  "homepage": "https://github.com/STRML/react-grid-layout",
+  "homepage": "https://github.com/Tripflow-io/tripflow-grid",
   "dependencies": {
     "clsx": "^1.2.1",
-    "fast-equals": "^5.0.0",
+    "fast-equals": "4.0.3",
     "prop-types": "^15.8.1",
     "react-draggable": "^4.4.5",
     "react-resizable": "^3.0.4"
@@ -122,10 +122,5 @@
       "eslint --ext .js,.jsx --fix",
       "yarn fmt"
     ]
-  },
-  "overrides": {
-    "react-grid-layout": {
-        "fast-equals": "4.0.3"
-    }
   }
 }
